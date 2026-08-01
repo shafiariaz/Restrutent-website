@@ -1,0 +1,555 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Zahra Dining — Where Every Meal Becomes a Memory</title>
+<meta name="description" content="Zahra Dining — Pakistani, Continental, Chinese, BBQ and desserts in one elevated dining room. Reserve your table today.">
+<meta name="theme-color" content="#14100D">
+<link rel="canonical" href="https://www.zahradining.com/">
+
+<!-- Open Graph -->
+<meta property="og:title" content="Zahra Dining — Where Every Meal Becomes a Memory">
+<meta property="og:description" content="Pakistani, Continental, Chinese, BBQ and desserts — served in a room built for the nights you'll actually remember.">
+<meta property="og:type" content="restaurant.restaurant">
+<meta property="og:url" content="https://www.zahradining.com/">
+<meta property="og:image" content="images/nihari.jpg">
+<meta property="og:site_name" content="Zahra Dining">
+<meta property="og:locale" content="en_US">
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Zahra Dining — Where Every Meal Becomes a Memory">
+<meta name="twitter:description" content="Pakistani, Continental, Chinese, BBQ and desserts — served in a room built for the nights you'll actually remember.">
+<meta name="twitter:image" content="images/nihari.jpg">
+
+<!-- Restaurant structured data (edit to match your real details before publishing) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Restaurant",
+  "name": "Zahra Dining",
+  "image": "images/nihari.jpg",
+  "servesCuisine": ["Pakistani", "Continental", "Chinese", "BBQ", "Desserts"],
+  "priceRange": "$$",
+  "telephone": "+1-512-555-0142",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "482 Riverside Boulevard",
+    "addressLocality": "Austin",
+    "addressRegion": "TX",
+    "postalCode": "78701",
+    "addressCountry": "US"
+  },
+  "acceptsReservations": "True"
+}
+</script>
+
+<!-- Favicon (replace via config / swap the file in /images) -->
+<link rel="icon" href="images/favicon.png" type="image/png">
+
+<!-- Fonts: Fraunces (display) + Inter (body/utility) -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,450;0,9..144,600;0,9..144,700;1,9..144,500&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+<!-- Icon font (UI icons only — all photography is real, no icon/illustration is used for food or venue content) -->
+
+<link rel="stylesheet" href="css/style.css">
+<!-- Online ordering system styles — added on top of the existing site, does not modify style.css -->
+<link rel="stylesheet" href="css/order.css">
+</head>
+<body>
+
+<!-- ============ SKIP LINK ============ -->
+<a class="skip-link" href="#main">Skip to content</a>
+
+<!-- Scroll progress indicator -->
+<div class="scroll-progress" id="scrollProgress" aria-hidden="true"></div>
+
+<!-- ============ STICKY HEADER ============ -->
+<header class="site-header" id="siteHeader">
+  <div class="container header-inner">
+    <a href="#home" class="brand" id="brandLogo" aria-label="Zahra Dining — home">
+      <span class="brand-mark">Z</span>
+      <span class="brand-name" id="brandName">Zahra Dining</span>
+    </a>
+
+    <nav class="main-nav" id="mainNav" aria-label="Primary">
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#menu">Menu</a></li>
+        <li><a href="#chef">Chef</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#events">Events</a></li>
+        <li><a href="order.html" class="nav-order-link">Order Online</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <div class="header-actions">
+      <button type="button" class="cart-btn js-cart-toggle" aria-label="View cart">
+        <i class="icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"/></svg></i>
+        <span class="cart-badge js-cart-count" hidden>0</span>
+      </button>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+
+  <!-- ============ HERO ============ -->
+  <section class="hero" id="home">
+    <div class="hero-slides" id="heroSlides" aria-hidden="true"></div>
+    <div class="hero-overlay"></div>
+
+    <div class="container hero-content">
+      <p class="eyebrow eyebrow-light reveal" id="heroEyebrow">Modern International Fine Dining · Austin, TX</p>
+      <h1 class="hero-heading reveal" id="heroHeading">Where Every Meal<br>Becomes a Memory.</h1>
+      <p class="hero-sub reveal" id="heroSub">Wood-fired classics, hand-cut steaks and a chef's tasting menu — served in a room built for the nights you'll actually remember.</p>
+      <div class="hero-ctas reveal">
+        <a href="#reservation" class="btn btn-gold btn-large"><i class="icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 2v7c0 1.1.9 2 2 2s2-.9 2-2V2M5 11v11M15 2c-1.5 0-3 1.5-3 5s1 5 2 6v9"/></svg></i> Book a Table</a>
+        <a href="#menu" class="btn btn-outline btn-large">View Menu</a>
+        <a href="order.html" class="btn btn-outline btn-large"><i class="icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"/></svg></i> Order Online</a>
+      </div>
+      <div class="hero-trust reveal">
+        <span><i class="icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg></i> 4.9 Rating</span>
+        <span class="hero-trust-dot">·</span>
+        <span>5,000+ Happy Customers</span>
+        <span class="hero-trust-dot">·</span>
+        <span>Premium Dining Experience</span>
+      </div>
+
+      <!-- Quick-reservation glass panel -->
+      <form class="quick-reserve reveal" id="quickReserveForm" aria-label="Quick table reservation">
+        <p class="quick-reserve-heading"><i class="icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/><polyline points="9 15.5 11 17.5 15.5 13"/></svg></i> Check Availability</p>
+        <div class="quick-reserve-row">
+          <div class="quick-reserve-field">
+            <label for="qrDate"><i class="icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg></i> Date</label>
+            <input type="date" id="qrDate" name="date" required>
+          </div>
+          <div class="quick-reserve-field">
+            <label for="qrTime"><i class="icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg></i> Time</label>
+            <select id="qrTime" name="time" required>
+              <option value="">Select</option>
+              <option>5:00 PM</option><option>5:30 PM</option><option>6:00 PM</option>
+              <option>6:30 PM</option><option>7:00 PM</option><option>7:30 PM</option>
+              <option>8:00 PM</option><option>8:30 PM</option><option>9:00 PM</option>
+            </select>
+          </div>
+          <div class="quick-reserve-field">
+            <label for="qrGuests"><i class="icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg></i> Guests</label>
+            <select id="qrGuests" name="guests" required>
+              <option value="">Select</option>
+              <option>1 Guest</option><option>2 Guests</option><option>3 Guests</option>
+              <option>4 Guests</option><option>5 Guests</option><option>6+ Guests</option>
+            </select>
+          </div>
+          <button type="submit" class="btn btn-gold quick-reserve-btn"><i class="icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg></i> Check Availability</button>
+        </div>
+      </form>
+    </div>
+  </section>
+
+  <!-- Signature dish marquee strip -->
+  <div class="marquee-strip" aria-hidden="true">
+    <div class="marquee-track" id="marqueeTrack"></div>
+  </div>
+
+  <!-- ============ ABOUT ============ -->
+  <section class="section" id="about">
+    <div class="container about-grid">
+      <div class="about-media reveal">
+        <img id="aboutImage" src="https://images.unsplash.com/photo-1667388969250-1c7220bf3f37?auto=format&fit=crop&w=1200&q=80" alt="The main dining room at Zahra Dining" loading="lazy">
+      </div>
+      <div class="about-copy reveal">
+        <p class="eyebrow">Our Story</p>
+        <h2 class="section-heading">A Table Worth<br>Returning To</h2>
+        <p>Zahra Dining opened its doors in 2014 with one idea: a great restaurant should feel like a memory in progress. Every plate is built around ingredients at their peak, techniques worth slowing down for, and a room designed to hold a conversation.</p>
+        <p>From the wood-fired oven to the dry-aging room, nothing here is an afterthought. Our kitchen is led by Executive Chef Antoine Delacroix, whose seasonal menus move with the market, not the calendar.</p>
+
+        <div class="stats-row" id="statsRow"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ FEATURED DISHES ============ -->
+  <section class="section section-alt" id="featured">
+    <div class="container">
+      <div class="section-head reveal">
+        <p class="eyebrow">Signature Plates</p>
+        <h2 class="section-heading">Featured Dishes</h2>
+      </div>
+      <div class="dish-grid reveal" id="featuredGrid"></div>
+    </div>
+  </section>
+
+  <!-- ============ MENU ============ -->
+  <section class="section" id="menu">
+    <div class="container">
+      <div class="section-head reveal">
+        <p class="eyebrow">The Full Menu</p>
+        <h2 class="section-heading">A Tasting Journey,<br>Course by Course</h2>
+        <p class="section-lede">Sixteen chapters, one kitchen. Browse the full menu below — every dish is made to order.</p>
+      </div>
+
+      <div class="menu-tabs-wrap reveal">
+        <div class="menu-tabs" id="menuTabs" role="tablist" aria-label="Menu categories"></div>
+      </div>
+
+      <div class="menu-panel reveal" id="menuPanel"></div>
+    </div>
+  </section>
+
+  <!-- ============ CHEF ============ -->
+  <section class="section section-alt" id="chef">
+    <div class="container chef-grid">
+      <div class="chef-media reveal">
+        <img id="chefImage" src="https://images.unsplash.com/photo-1600565193348-f74bd3c7ccdf?auto=format&fit=crop&w=900&q=80" alt="Executive Chef Antoine Delacroix at the pass" loading="lazy">
+      </div>
+      <div class="chef-copy reveal">
+        <p class="eyebrow">Meet The Chef</p>
+        <h2 class="section-heading" id="chefName">Antoine Delacroix</h2>
+        <p class="chef-title" id="chefTitle">Executive Chef &amp; Partner</p>
+        <blockquote class="chef-quote" id="chefQuote">&ldquo;Cook the ingredient, not the trend. That's the whole philosophy.&rdquo;</blockquote>
+        <p id="chefBio">Trained in Lyon and seasoned across kitchens in New York and Austin, Chef Antoine builds every menu around what the market gives him that week. His food is technical without being fussy — the kind of cooking that makes a first date and a family dinner feel equally at home.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ GALLERY ============ -->
+  <section class="section" id="gallery">
+    <div class="container">
+      <div class="section-head reveal">
+        <p class="eyebrow">A Look Inside</p>
+        <h2 class="section-heading">Gallery</h2>
+      </div>
+      <div class="gallery-grid reveal" id="galleryGrid"></div>
+    </div>
+  </section>
+
+  <!-- Lightbox -->
+  <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Image viewer" hidden>
+    <button class="lightbox-close" id="lightboxClose" aria-label="Close">&times;</button>
+    <button class="lightbox-nav lightbox-prev" id="lightboxPrev" aria-label="Previous image">&#10094;</button>
+    <img id="lightboxImg" src="" alt="">
+    <p class="lightbox-caption" id="lightboxCaption"></p>
+    <button class="lightbox-nav lightbox-next" id="lightboxNext" aria-label="Next image">&#10095;</button>
+  </div>
+
+  <!-- Menu item quick view -->
+  <div class="menu-quickview" id="menuQuickview" role="dialog" aria-modal="true" aria-label="Dish quick view" hidden>
+    <div class="menu-quickview-card">
+      <button class="menu-quickview-close" id="qvClose" aria-label="Close">&times;</button>
+      <div class="menu-quickview-media"><img id="qvImg" src="" alt=""></div>
+      <div class="menu-quickview-body">
+        <p class="eyebrow" id="qvCategory"></p>
+        <h3 id="qvName"></h3>
+        <p id="qvDesc"></p>
+        <div class="menu-quickview-price" id="qvPrice"></div>
+        <a href="#reservation" class="btn btn-gold btn-small" id="qvReserveBtn">Reserve a Table</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- ============ RESERVATION ============ -->
+  <section class="section section-alt" id="reservation">
+    <div class="container reservation-grid">
+      <div class="reservation-info reveal">
+        <p class="eyebrow">Book A Table</p>
+        <h2 class="section-heading">Reserve Your Evening</h2>
+        <p>Tell us the details and our host team will confirm your table within one business hour. For parties of eight or more, please call us directly.</p>
+
+        <ul class="info-list" id="reservationInfoList"></ul>
+      </div>
+
+      <form class="reservation-form reveal" id="reservationForm" novalidate>
+        <div class="form-row">
+          <div class="form-field">
+            <label for="resName">Full Name</label>
+            <input type="text" id="resName" name="name" required>
+          </div>
+          <div class="form-field">
+            <label for="resEmail">Email</label>
+            <input type="email" id="resEmail" name="email" required>
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="form-field">
+            <label for="resPhone">Phone</label>
+            <input type="tel" id="resPhone" name="phone" required>
+          </div>
+          <div class="form-field">
+            <label for="resGuests">Guests</label>
+            <select id="resGuests" name="guests" required>
+              <option value="">Select</option>
+              <option>1 Guest</option><option>2 Guests</option><option>3 Guests</option>
+              <option>4 Guests</option><option>5 Guests</option><option>6 Guests</option>
+              <option>7+ Guests (call us)</option>
+            </select>
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="form-field">
+            <label for="resDate">Date</label>
+            <input type="date" id="resDate" name="date" required>
+          </div>
+          <div class="form-field">
+            <label for="resTime">Time</label>
+            <select id="resTime" name="time" required>
+              <option value="">Select</option>
+              <option>5:00 PM</option><option>5:30 PM</option><option>6:00 PM</option>
+              <option>6:30 PM</option><option>7:00 PM</option><option>7:30 PM</option>
+              <option>8:00 PM</option><option>8:30 PM</option><option>9:00 PM</option>
+            </select>
+          </div>
+        </div>
+        <div class="form-field">
+          <label for="resNotes">Special Requests <span class="optional">(optional)</span></label>
+          <textarea id="resNotes" name="notes" rows="3" placeholder="Allergies, celebrations, seating preference..."></textarea>
+        </div>
+        <button type="submit" class="btn btn-gold btn-full">Request Reservation</button>
+        <div class="form-success" id="reservationSuccess" role="status" hidden>
+          <p class="form-success-title">Your email app should have opened with this request. If nothing happened (common on computers with no default mail app set up), copy the message below and send it to us any way you like:</p>
+          <textarea class="form-success-box" id="reservationSuccessText" readonly rows="7"></textarea>
+          <div class="form-success-actions">
+            <button type="button" class="btn btn-outline btn-small" id="reservationCopyBtn">Copy Message</button>
+            <a href="#" class="btn btn-outline btn-small" id="reservationMailBtn">Open Email App</a>
+          </div>
+          <p class="form-success-alt">Or reach us directly: <span id="reservationAltContact"></span></p>
+        </div>
+      </form>
+    </div>
+  </section>
+
+  <!-- ============ TESTIMONIALS ============ -->
+  <section class="section" id="testimonials">
+    <div class="container">
+      <div class="section-head reveal">
+        <p class="eyebrow">Guest Reviews</p>
+        <h2 class="section-heading">What People Are Saying</h2>
+      </div>
+
+      <div class="testimonial-slider reveal">
+        <button class="slider-arrow slider-prev" id="testiPrev" aria-label="Previous testimonial">&#10094;</button>
+        <div class="testimonial-track-wrap">
+          <div class="testimonial-track" id="testimonialTrack"></div>
+        </div>
+        <button class="slider-arrow slider-next" id="testiNext" aria-label="Next testimonial">&#10095;</button>
+      </div>
+      <div class="slider-dots" id="testiDots"></div>
+    </div>
+  </section>
+
+  <!-- ============ EVENTS ============ -->
+  <section class="section section-alt" id="events">
+    <div class="container">
+      <div class="section-head reveal">
+        <p class="eyebrow">On The Calendar</p>
+        <h2 class="section-heading">Events at Zahra</h2>
+      </div>
+      <div class="events-grid reveal" id="eventsGrid"></div>
+    </div>
+  </section>
+
+  <!-- ============ CATERING ============ -->
+  <section class="section" id="catering">
+    <div class="container catering-grid">
+      <div class="catering-media reveal">
+        <img id="cateringImage" src="https://images.unsplash.com/photo-1691200170948-beca4be90d59?auto=format&fit=crop&w=1200&q=80" alt="Catering spread from Zahra Dining" loading="lazy">
+      </div>
+      <div class="catering-copy reveal">
+        <p class="eyebrow">Off-Site &amp; Private</p>
+        <h2 class="section-heading">Zahra Catering</h2>
+        <p id="cateringDesc">From a fifteen-person dinner in your home to a three-hundred-guest wedding, our catering team builds a menu around your event — not the other way around.</p>
+        <div class="package-list" id="packageList"></div>
+        <a href="#contact" class="btn btn-outline">Request a Catering Quote</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ SPECIAL OFFERS ============ -->
+  <section class="section section-alt" id="offers">
+    <div class="container">
+      <div class="section-head reveal">
+        <p class="eyebrow">Standing Offers</p>
+        <h2 class="section-heading">Special Offers</h2>
+      </div>
+      <div class="offers-banner reveal" id="offersBanner">
+        <span class="offers-banner-icon"><i class="icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"/><line x1="7" y1="7" x2="7.01" y2="7"/></svg></i></span>
+        <span class="offers-banner-text" id="offersBannerText"></span>
+        <a href="#reservation" class="btn btn-gold btn-small" id="offersBannerCta"></a>
+      </div>
+      <div class="offers-grid reveal" id="offersGrid"></div>
+    </div>
+  </section>
+
+  <!-- ============ FAQ ============ -->
+  <section class="section" id="faq">
+    <div class="container faq-wrap">
+      <div class="section-head reveal">
+        <p class="eyebrow">Good To Know</p>
+        <h2 class="section-heading">Frequently Asked Questions</h2>
+      </div>
+      <div class="faq-list reveal" id="faqList"></div>
+    </div>
+  </section>
+
+  <!-- ============ NEWSLETTER ============ -->
+  <section class="newsletter-band">
+    <div class="container newsletter-inner reveal">
+      <div>
+        <p class="eyebrow eyebrow-light">Stay In The Loop</p>
+        <h2 class="section-heading light">Join Our Table</h2>
+        <p class="newsletter-copy">Seasonal menu drops, event invites and the occasional surprise offer. No spam, ever.</p>
+      </div>
+      <form class="newsletter-form" id="newsletterForm">
+        <input type="email" id="newsletterEmail" placeholder="Enter your email" required aria-label="Email address">
+        <button type="submit" class="btn btn-gold">Subscribe</button>
+      </form>
+    </div>
+    <p class="form-success form-success-light" id="newsletterSuccess" role="status" hidden>You're on the list — welcome to the table.</p>
+  </section>
+
+  <!-- ============ INSTAGRAM GALLERY ============ -->
+  <section class="section" id="instagram">
+    <div class="container">
+      <div class="section-head reveal">
+        <p class="eyebrow">Follow Along</p>
+        <h2 class="section-heading" id="instaHandleHeading">@zahradining</h2>
+      </div>
+      <div class="insta-grid reveal" id="instaGrid"></div>
+    </div>
+  </section>
+
+  <!-- ============ MAP ============ -->
+  <section class="section section-alt" id="map">
+    <div class="container">
+      <div class="section-head reveal">
+        <p class="eyebrow">Find Us</p>
+        <h2 class="section-heading">Visit Zahra Dining</h2>
+      </div>
+      <div class="map-wrap reveal">
+        <iframe id="mapEmbed" title="Zahra Dining location map" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe>
+      </div>
+      <p class="map-fallback"><a id="mapFallbackLink" href="#" target="_blank" rel="noopener"><i class="icon" aria-hidden="true"></i> Open in Google Maps</a></p>
+    </div>
+  </section>
+
+  <!-- ============ CONTACT ============ -->
+  <section class="section" id="contact">
+    <div class="container contact-grid">
+      <div class="contact-info reveal">
+        <p class="eyebrow">Get In Touch</p>
+        <h2 class="section-heading">Contact Us</h2>
+        <p>Questions about a large party, a gift card, or anything else? Send us a note and we'll reply within one business day.</p>
+        <ul class="info-list" id="contactInfoList"></ul>
+        <div class="social-row" id="contactSocialRow"></div>
+      </div>
+
+      <form class="contact-form reveal" id="contactForm" novalidate>
+        <div class="form-row">
+          <div class="form-field">
+            <label for="cName">Full Name</label>
+            <input type="text" id="cName" name="name" required>
+          </div>
+          <div class="form-field">
+            <label for="cEmail">Email</label>
+            <input type="email" id="cEmail" name="email" required>
+          </div>
+        </div>
+        <div class="form-field">
+          <label for="cSubject">Subject</label>
+          <input type="text" id="cSubject" name="subject" required>
+        </div>
+        <div class="form-field">
+          <label for="cMessage">Message</label>
+          <textarea id="cMessage" name="message" rows="4" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-gold btn-full">Send Message</button>
+        <div class="form-success" id="contactSuccess" role="status" hidden>
+          <p class="form-success-title">Your email app should have opened with this message. If nothing happened (common on computers with no default mail app set up), copy the message below and send it to us any way you like:</p>
+          <textarea class="form-success-box" id="contactSuccessText" readonly rows="6"></textarea>
+          <div class="form-success-actions">
+            <button type="button" class="btn btn-outline btn-small" id="contactCopyBtn">Copy Message</button>
+            <a href="#" class="btn btn-outline btn-small" id="contactMailBtn">Open Email App</a>
+          </div>
+          <p class="form-success-alt">Or reach us directly: <span id="contactAltContact"></span></p>
+        </div>
+      </form>
+    </div>
+  </section>
+
+</main>
+
+<!-- ============ PREMIUM FOOTER ============ -->
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div class="footer-brand">
+      <a href="#home" class="brand">
+        <span class="brand-mark">Z</span>
+        <span class="brand-name" id="footerBrandName">Zahra Dining</span>
+      </a>
+      <p id="footerTagline">Where Every Meal Becomes a Memory.</p>
+      <div class="social-row" id="footerSocialRow"></div>
+    </div>
+
+    <div class="footer-col">
+      <h3>Explore</h3>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#menu">Menu</a></li>
+        <li><a href="#chef">Our Chef</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#events">Events</a></li>
+        <li><a href="#catering">Catering</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-col">
+      <h3>Visit</h3>
+      <ul id="footerHoursList"></ul>
+    </div>
+
+    <div class="footer-col">
+      <h3>Contact</h3>
+      <ul id="footerContactList"></ul>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <div class="container footer-bottom-inner">
+      <p id="footerCopyright">&copy; 2026 Zahra Dining. All rights reserved.</p>
+      <p class="footer-credit">Template by Nexora Digital</p>
+    </div>
+  </div>
+</footer>
+
+<button class="back-to-top" id="backToTop" aria-label="Back to top"><i class="icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="19" x2="12" y2="5"/><polyline points="5 12 12 5 19 12"/></svg></i></button>
+
+<!-- Back to top -->
+<button class="back-to-top" id="backToTop" aria-label="Back to top">
+  <i class="icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="19" x2="12" y2="5"/><polyline points="5 12 12 5 19 12"/></svg></i>
+</button>
+
+<!-- Sticky mobile action bar -->
+<div class="mobile-action-bar" id="mobileActionBar">
+  <a href="tel:" id="mobileCallLink"><i class="icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg></i><span>Call</span></a>
+  <a href="https://wa.me/" id="mobileWaLink" target="_blank" rel="noopener"><i class="icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path fill="currentColor" d="M12 2a10 10 0 0 0-8.94 14.5L2 22l5.5-1.06A10 10 0 1 0 12 2z"/><path fill="#14100D" d="M8.5 8.5c-.5 1 .3 2.7 1.5 4s3 2 4 1.5c.3-.15.5-.7.4-1.1l-.2-.6a.5.5 0 0 0-.6-.3l-.9.3a5 5 0 0 1-2-2l.3-.9a.5.5 0 0 0-.3-.6l-.6-.2c-.4-.1-.95.1-1.1.4z"/></svg></i><span>WhatsApp</span></a>
+  <a href="#reservation"><i class="icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 2v7c0 1.1.9 2 2 2s2-.9 2-2V2M5 11v11M15 2c-1.5 0-3 1.5-3 5s1 5 2 6v9"/></svg></i><span>Book Table</span></a>
+</div>
+
+<script src="js/config.js"></script>
+<script src="js/script.js"></script>
+
+<!-- Online ordering system — cart icon + drawer only on this page; -->
+<!-- the full menu/checkout flow lives on order.html / cart.html / checkout.html -->
+<script src="js/order-config.js"></script>
+<script src="js/cart.js"></script>
+<script src="js/cart-widget.js"></script>
+</body>
+</html>

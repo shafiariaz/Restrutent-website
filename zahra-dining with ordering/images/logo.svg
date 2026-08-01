@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <defs>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E7CE99"/>
+      <stop offset="100%" stop-color="#C6A15B"/>
+    </linearGradient>
+  </defs>
+
+  <!-- outer ring -->
+  <circle cx="100" cy="100" r="92" fill="none" stroke="url(#goldGrad)" stroke-width="3"/>
+  <circle cx="100" cy="100" r="84" fill="none" stroke="url(#goldGrad)" stroke-width="1" opacity="0.55"/>
+
+  <!-- Z monogram -->
+  <text x="100" y="128" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="92" font-weight="600" fill="url(#goldGrad)">Z</text>
+
+  <!-- laurel sprig, left -->
+  <g stroke="url(#goldGrad)" stroke-width="2.2" fill="none" stroke-linecap="round">
+    <path d="M40 150 C34 138, 34 122, 42 108"/>
+    <path d="M40 148 C33 145, 28 139, 26 132"/>
+    <path d="M38 136 C31 134, 25 129, 22 122"/>
+    <path d="M39 124 C32 123, 26 119, 23 113"/>
+    <path d="M43 112 C37 112, 31 109, 27 104"/>
+  </g>
+
+  <!-- laurel sprig, right (mirrored) -->
+  <g stroke="url(#goldGrad)" stroke-width="2.2" fill="none" stroke-linecap="round">
+    <path d="M160 150 C166 138, 166 122, 158 108"/>
+    <path d="M160 148 C167 145, 172 139, 174 132"/>
+    <path d="M162 136 C169 134, 175 129, 178 122"/>
+    <path d="M161 124 C168 123, 174 119, 177 113"/>
+    <path d="M157 112 C163 112, 169 109, 173 104"/>
+  </g>
+</svg>

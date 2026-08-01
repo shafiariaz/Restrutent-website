@@ -1,0 +1,782 @@
+{
+  "currency": "USD",
+  "currencySymbol": "$",
+  "categories": [
+    {
+      "id": "starters",
+      "label": "Starters",
+      "items": [
+        {
+          "id": "starters-charred-octopus-crostini",
+          "name": "Charred Octopus Crostini",
+          "description": "Grilled octopus, smoked paprika aioli, toasted sourdough, pickled fennel",
+          "price": 16,
+          "unit": null,
+          "image": "https://images.unsplash.com/photo-1706650439799-d4a8894556b6?auto=format&fit=crop&w=700&q=80",
+          "featured": false,
+          "available": true
+        },
+        {
+          "id": "starters-burrata-heirloom-tomato",
+          "name": "Burrata & Heirloom Tomato",
+          "description": "Whipped burrata, basil oil, aged balsamic, sea salt crackers",
+          "price": 14,
+          "unit": null,
+          "image": "https://images.unsplash.com/photo-1600891964599-f61ba0e24092?auto=format&fit=crop&w=700&q=80",
+          "featured": false,
+          "available": true
+        },
+        {
+          "id": "starters-truffle-arancini",
+          "name": "Truffle Arancini",
+          "description": "Crispy risotto balls, black truffle, parmesan fondue",
+          "price": 13,
+          "unit": null,
+          "image": "https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?auto=format&fit=crop&w=700&q=80",
+          "featured": false,
+          "available": true
+        },
+        {
+          "id": "starters-yellowfin-tuna-tartare",
+          "name": "Yellowfin Tuna Tartare",
+          "description": "Avocado, citrus soy, sesame tuile",
+          "price": 17,
+          "unit": null,
+          "image": "https://images.unsplash.com/photo-1577906096429-f73c2c312435?auto=format&fit=crop&w=700&q=80",
+          "featured": false,
+          "available": true
+        }
+      ]
+    },
+    {
+      "id": "soups",
+      "label": "Soups",
+      "items": [
+        {
+          "id": "soups-roasted-butternut-bisque",
+          "name": "Roasted Butternut Bisque",
+          "description": "Brown butter, toasted pepitas, chili oil",
+          "price": 9,
+          "unit": null,
+          "image": "https://images.unsplash.com/photo-1613844237701-8f3664fc2eff?auto=format&fit=crop&w=700&q=80",
+          "featured": false,
+          "available": true
+        },
+        {
+          "id": "soups-french-onion-soup",
+          "name": "French Onion Soup",
+          "description": "Caramelized onions, gruyère crust, brioche crouton",
+          "price": 10,
+          "unit": null,
+          "image": "https://images.unsplash.com/photo-1616501268826-ee9731c915d4?auto=format&fit=crop&w=700&q=80",
+          "featured": false,
+          "available": true
+        },
+        {
+          "id": "soups-wild-mushroom-velout",
+          "name": "Wild Mushroom Velouté",
+          "description": "Porcini cream, truffle oil, chive",
+          "price": 11,
+          "unit": null,
+          "image": "https://images.unsplash.com/photo-1652088079703-38f4a8d6b981?auto=format&fit=crop&w=700&q=80",
+          "featured": false,
+          "available": true
+        },
+        {
+          "id": "soups-lobster-bisque",
+          "name": "Lobster Bisque",
+          "description": "Cognac cream, lobster claw, tarragon",
+          "price": 14,
+          "unit": null,
+          "image": "https://images.unsplash.com/photo-1620256114757-322387444c16?auto=format&fit=crop&w=700&q=80",
+          "featured": false,
+          "available": true
+        }
+      ]
+    },
+    {
+      "id": "salads",
+      "label": "Salads",
+      "items": [
+        {
+          "id": "salads-zahra-garden-salad",
+          "name": "Zahra Garden Salad",
+          "description": "Baby greens, shaved radish, citrus vinaigrette, candied walnuts",
+          "price": 12,
+          "unit": null,
+          "image": "https://images.unsplash.com/photo-1669472546359-418a98630699?auto=format&fit=crop&w=700&q=80",
+          "featured": false,
+          "available": true
+        },
+        {
+          "id": "salads-roasted-beet-goat-cheese",
+          "name": "Roasted Beet & Goat Cheese",
+          "description": "Whipped goat cheese, pistachio, honey, arugula",
+          "price": 14,
+          "unit": null,
+          "image": "https://images.unsplash.com/photo-1708184528305-33ce7daced65?auto=format&fit=crop&w=700&q=80",
+          "featured": false,
+          "available": true
+        },
+        {
+          "id": "salads-caesar-supreme",
+          "name": "Caesar Supreme",
+          "description": "Romaine hearts, parmesan crisp, white anchovy, garlic crouton",
+          "price": 13,
+          "unit": null,
+          "image": "https://images.unsplash.com/photo-1576402187658-44ca7d2c2c52?auto=format&fit=crop&w=700&q=80",
+          "featured": false,
+          "available": true
+        },
+        {
+          "id": "salads-grilled-peach-burrata-salad",
+          "name": "Grilled Peach & Burrata Salad",
+          "description": "Prosciutto, arugula, balsamic glaze",
+          "price": 15,
+          "unit": null,
+          "image": "https://images.unsplash.com/photo-1612949060041-663b198e1f86?auto=format&fit=crop&w=700&q=80",
+          "featured": false,
+          "available": true
+        }
+      ]
+    },
+    {
+      "id": "pizza",
+      "label": "Pizza",
+      "items": [
+        {
+          "id": "pizza-margherita-reale",
+          "name": "Margherita Reale",
+          "description": "San Marzano tomato, fior di latte, basil, EVOO",
+          "price": 18,
+          "unit": null,
+          "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?auto=format&fit=crop&w=700&q=80",
+          "featured": true,
+          "available": true
+        },
+        {
+          "id": "pizza-tartufo-bianco",
+          "name": "Tartufo Bianco",
+          "description": "White truffle cream, wild mushroom, fontina, arugula",
+          "price": 24,
+          "unit": null,
+          "image": "https://images.unsplash.com/photo-1593504049359-74330189a345?auto=format&fit=crop&w=700&q=80",
+          "featured": false,
+          "available": true
+        },
+        {
+          "id": "pizza-prosciutto-fig",
+          "name": "Prosciutto & Fig",
+          "description": "Fig jam, prosciutto di Parma, gorgonzola, balsamic",
+          "price": 22,
+          "unit": null,
+          "image": "https://images.unsplash.com/photo-1613564834361-9436948817d1?auto=format&fit=crop&w=700&q=80",
+          "featured": false,
+          "available": true
+        },
+        {
+          "id": "pizza-bbq-chicken-pizza",
+          "name": "BBQ Chicken Pizza",
+          "description": "Smoked chicken, red onion, cilantro, mozzarella",
+          "price": 20,
+          "unit": null,
+          "image": "https://images.unsplash.com/photo-1534308983496-4fabb1a015ee?auto=format&fit=crop&w=700&q=80",
+          "featured": false,
+          "available": true
+        }
+      ]
+    },
+    {
+      "id": "burgers",
+      "label": "Burgers",
+      "items": [
+        {
+          "id": "burgers-the-zahra-signature-burger",
+          "name": "The Zahra Signature Burger",
+          "description": "Dry-aged beef, smoked cheddar, truffle aioli, brioche",
+          "price": 19,
+          "unit": null,
+          "image": "https://images.unsplash.com/photo-1460306855393-0410f61241c7?auto=format&fit=crop&w=700&q=80",
+          "featured": true,
+          "available": true
+        },
+        {
+          "id": "burgers-wagyu-cheeseburger",
+          "name": "Wagyu Cheeseburger",
+          "description": "A5 wagyu blend, caramelized onion, gruyère",
+          "price": 26,
+          "unit": null,
+          "image": "https://images.unsplash.com/photo-1606131731446-5568d87113aa?auto=format&fit=crop&w=700&q=80",
+          "featured": false,
+          "available": true
+        },
+        {
+          "id": "burgers-crispy-chicken-burger",
+          "name": "Crispy Chicken Burger",
+          "description": "Buttermilk fried chicken, slaw, spicy honey",
+          "price": 17,
+          "unit": null,
+          "image": "https://images.unsplash.com/photo-1534790566855-4cb788d389ec?auto=format&fit=crop&w=700&q=80",
+          "featured": false,
+          "available": true
+        },
+        {
+          "id": "burgers-impossible-garden-burger",
+          "name": "Impossible Garden Burger",
+          "description": "Plant-based patty, avocado, chipotle mayo",
+          "price": 16,
+          "unit": null,
+          "image": "https://images.unsplash.com/photo-1575980726530-4e673bfa0ad8?auto=format&fit=crop&w=700&q=80",
+          "featured": false,
+          "available": true
+        }
+      ]
+    },
+    {
+      "id": "pasta",
+      "label": "Pasta",
+      "items": [
+        {
+          "id": "pasta-truffle-tagliatelle",
+          "name": "Truffle Tagliatelle",
+          "description": "Fresh egg pasta, black truffle, parmesan cream",
+          "price": 24,
+          "unit": null,
+          "image": "https://images.unsplash.com/photo-1611270629569-8b357cb88da9?auto=format&fit=crop&w=700&q=80",
+          "featured": true,
+          "available": true
+        },
+        {
+          "id": "pasta-lobster-ravioli",
+          "name": "Lobster Ravioli",
+          "description": "Saffron cream sauce, chive oil",
+          "price": 28,
+          "unit": null,
+          "image": "https://images.unsplash.com/photo-1546549032-9571cd6b27df?auto=format&fit=crop&w=700&q=80",
+          "featured": false,
+          "available": true
+        },
+        {
+          "id": "pasta-spaghetti-pomodoro",
+          "name": "Spaghetti Pomodoro",
+          "description": "San Marzano tomato, basil, garlic, EVOO",
+          "price": 18,
+          "unit": null,
+          "image": "https://images.unsplash.com/photo-1600803907087-f56d462fd26b?auto=format&fit=crop&w=700&q=80",
+          "featured": false,
+          "available": true
+        },
+        {
+          "id": "pasta-cacio-e-pepe",
+          "name": "Cacio e Pepe",
+          "description": "Pecorino Romano, cracked black pepper",
+          "price": 17,
+          "unit": null,
+          "image": "https://images.unsplash.com/photo-1516100882582-96c3a05fe590?auto=format&fit=crop&w=700&q=80",
+          "featured": false,
+          "available": true
+        }
+      ]
+    },
+    {
+      "id": "steak",
+      "label": "Steak",
+      "items": [
+        {
+          "id": "steak-filet-mignon-8oz",
+          "name": "Filet Mignon 8oz",
+          "description": "Peppercorn jus, roasted garlic mash",
+          "price": 42,
+          "unit": null,
+          "image": "https://images.unsplash.com/photo-1546964124-0cce460f38ef?auto=format&fit=crop&w=700&q=80",
+          "featured": false,
+          "available": true
+        },
+        {
+          "id": "steak-ribeye-14oz",
+          "name": "Ribeye 14oz",
+          "description": "Dry-aged, chimichurri, truffle fries",
+          "price": 48,
+          "unit": null,
+          "image": "https://images.unsplash.com/photo-1602216475919-37336ceb4ad3?auto=format&fit=crop&w=700&q=80",
+          "featured": true,
+          "available": true
+        },
+        {
+          "id": "steak-tomahawk-for-two",
+          "name": "Tomahawk for Two",
+          "description": "Herb butter, roasted vegetables",
+          "price": 95,
+          "unit": null,
+          "image": "https://images.unsplash.com/photo-1608877906601-33195b1dc2cb?auto=format&fit=crop&w=700&q=80",
+          "featured": false,
+          "available": true
+        },
+        {
+          "id": "steak-wagyu-striploin",
+          "name": "Wagyu Striploin",
+          "description": "Rich pan reduction, potato gratin",
+          "price": 58,
+          "unit": null,
+          "image": "https://images.unsplash.com/photo-1576511053046-7e445c5b95af?auto=format&fit=crop&w=700&q=80",
+          "featured": false,
+          "available": true
+        }
+      ]
+    },
+    {
+      "id": "seafood",
+      "label": "Seafood",
+      "items": [
+        {
+          "id": "seafood-pan-seared-salmon",
+          "name": "Pan-Seared Salmon",
+          "description": "Lemon beurre blanc, asparagus, wild rice",
+          "price": 29,
+          "unit": null,
+          "image": "https://images.unsplash.com/photo-1519708227418-c8fd9a32b7a2?auto=format&fit=crop&w=700&q=80",
+          "featured": false,
+          "available": true
+        },
+        {
+          "id": "seafood-grilled-chilean-sea-bass",
+          "name": "Grilled Chilean Sea Bass",
+          "description": "Citrus butter, seasonal vegetables",
+          "price": 36,
+          "unit": null,
+          "image": "https://images.unsplash.com/photo-1712334562767-5d366d0c40d9?auto=format&fit=crop&w=700&q=80",
+          "featured": true,
+          "available": true
+        },
+        {
+          "id": "seafood-seafood-linguine",
+          "name": "Seafood Linguine",
+          "description": "Shrimp, clams, mussels, garlic butter sauce",
+          "price": 27,
+          "unit": null,
+          "image": "https://images.unsplash.com/photo-1560717845-968823efbee1?auto=format&fit=crop&w=700&q=80",
+          "featured": false,
+          "available": true
+        },
+        {
+          "id": "seafood-miso-glazed-black-cod",
+          "name": "Miso Glazed Black Cod",
+          "description": "Bok choy, sticky rice",
+          "price": 34,
+          "unit": null,
+          "image": "https://images.unsplash.com/photo-1580959375944-abd7e991f971?auto=format&fit=crop&w=700&q=80",
+          "featured": false,
+          "available": true
+        }
+      ]
+    },
+    {
+      "id": "bbq",
+      "label": "BBQ",
+      "items": [
+        {
+          "id": "bbq-seekh-kebab",
+          "name": "Seekh Kebab",
+          "description": "Hand-minced chicken, garam masala, char-grilled",
+          "price": 18,
+          "unit": null,
+          "image": "images/seekh-kebab.jpg",
+          "featured": true,
+          "available": true
+        },
+        {
+          "id": "bbq-smoked-baby-back-ribs-full-rack",
+          "name": "Smoked Baby Back Ribs (Full Rack)",
+          "description": "Bourbon BBQ glaze, coleslaw, cornbread",
+          "price": 28,
+          "unit": null,
+          "image": "https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=700&q=80",
+          "featured": false,
+          "available": true
+        },
+        {
+          "id": "bbq-texas-brisket-platter",
+          "name": "Texas Brisket Platter",
+          "description": "Smoked 14 hours, pickles, mac & cheese",
+          "price": 26,
+          "unit": null,
+          "image": "https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=700&q=80",
+          "featured": false,
+          "available": true
+        },
+        {
+          "id": "bbq-bbq-pulled-pork-sandwich",
+          "name": "BBQ Pulled Pork Sandwich",
+          "description": "Brioche bun, house slaw",
+          "price": 17,
+          "unit": null,
+          "image": "https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=700&q=80",
+          "featured": false,
+          "available": true
+        },
+        {
+          "id": "bbq-smoked-chicken-half",
+          "name": "Smoked Chicken Half",
+          "description": "Applewood smoked, BBQ glaze, cornbread",
+          "price": 21,
+          "unit": null,
+          "image": "images/seekh-kebab.jpg",
+          "featured": false,
+          "available": true
+        }
+      ]
+    },
+    {
+      "id": "chicken",
+      "label": "Chicken",
+      "items": [
+        {
+          "id": "chicken-chicken-karahi",
+          "name": "Chicken Karahi",
+          "description": "Wok-tossed tomato, ginger, green chili, fresh coriander",
+          "price": 21,
+          "unit": null,
+          "image": "images/chicken-karahi.jpg",
+          "featured": true,
+          "available": true
+        },
+        {
+          "id": "chicken-herb-roasted-chicken",
+          "name": "Herb Roasted Chicken",
+          "description": "Jus, garlic mash, seasonal greens",
+          "price": 23,
+          "unit": null,
+          "image": "https://images.unsplash.com/photo-1518492104633-130d0cc84637?auto=format&fit=crop&w=700&q=80",
+          "featured": false,
+          "available": true
+        },
+        {
+          "id": "chicken-chicken-parmesan",
+          "name": "Chicken Parmesan",
+          "description": "San Marzano, mozzarella, spaghetti pomodoro",
+          "price": 22,
+          "unit": null,
+          "image": "https://images.unsplash.com/photo-1518492104633-130d0cc84637?auto=format&fit=crop&w=700&q=80",
+          "featured": false,
+          "available": true
+        },
+        {
+          "id": "chicken-grilled-chicken-piccata",
+          "name": "Grilled Chicken Piccata",
+          "description": "Lemon caper butter sauce, asparagus",
+          "price": 24,
+          "unit": null,
+          "image": "https://images.unsplash.com/photo-1518492104633-130d0cc84637?auto=format&fit=crop&w=700&q=80",
+          "featured": false,
+          "available": true
+        },
+        {
+          "id": "chicken-southern-fried-chicken",
+          "name": "Southern Fried Chicken",
+          "description": "Honey drizzle, buttermilk biscuit",
+          "price": 19,
+          "unit": null,
+          "image": "https://images.unsplash.com/photo-1518492104633-130d0cc84637?auto=format&fit=crop&w=700&q=80",
+          "featured": false,
+          "available": true
+        }
+      ]
+    },
+    {
+      "id": "desserts",
+      "label": "Desserts",
+      "items": [
+        {
+          "id": "desserts-rainbow-ice-cream",
+          "name": "Rainbow Ice Cream",
+          "description": "A colorful house-made scoop trio",
+          "price": 9,
+          "unit": null,
+          "image": "images/rainbow-icecream.jpg",
+          "featured": true,
+          "available": true
+        },
+        {
+          "id": "desserts-molten-chocolate-lava-cake",
+          "name": "Molten Chocolate Lava Cake",
+          "description": "Vanilla bean gelato, raspberry coulis",
+          "price": 12,
+          "unit": null,
+          "image": "https://images.unsplash.com/photo-1588168333986-5078d3ae3976?auto=format&fit=crop&w=700&q=80",
+          "featured": false,
+          "available": true
+        },
+        {
+          "id": "desserts-crme-brle",
+          "name": "Crème Brûlée",
+          "description": "Madagascar vanilla, caramelized sugar crust",
+          "price": 10,
+          "unit": null,
+          "image": "https://images.unsplash.com/photo-1588168333986-5078d3ae3976?auto=format&fit=crop&w=700&q=80",
+          "featured": false,
+          "available": true
+        },
+        {
+          "id": "desserts-tiramisu",
+          "name": "Tiramisu",
+          "description": "Espresso-soaked ladyfingers, mascarpone",
+          "price": 11,
+          "unit": null,
+          "image": "https://images.unsplash.com/photo-1588168333986-5078d3ae3976?auto=format&fit=crop&w=700&q=80",
+          "featured": false,
+          "available": true
+        },
+        {
+          "id": "desserts-new-york-cheesecake",
+          "name": "New York Cheesecake",
+          "description": "Graham crust, berry compote",
+          "price": 10,
+          "unit": null,
+          "image": "https://images.unsplash.com/photo-1588168333986-5078d3ae3976?auto=format&fit=crop&w=700&q=80",
+          "featured": false,
+          "available": true
+        }
+      ]
+    },
+    {
+      "id": "coffee",
+      "label": "Coffee",
+      "items": [
+        {
+          "id": "coffee-zahra-signature-espresso",
+          "name": "Zahra Signature Espresso",
+          "description": "Double shot, house blend",
+          "price": 4,
+          "unit": null,
+          "image": "images/coffee-cup.jpg",
+          "featured": false,
+          "available": true
+        },
+        {
+          "id": "coffee-cappuccino",
+          "name": "Cappuccino",
+          "description": "Espresso, steamed milk, foam art",
+          "price": 5,
+          "unit": null,
+          "image": "images/coffee-cup.jpg",
+          "featured": false,
+          "available": true
+        },
+        {
+          "id": "coffee-caramel-macchiato",
+          "name": "Caramel Macchiato",
+          "description": "Vanilla, caramel drizzle",
+          "price": 6,
+          "unit": null,
+          "image": "images/coffee-cup.jpg",
+          "featured": false,
+          "available": true
+        },
+        {
+          "id": "coffee-cold-brew",
+          "name": "Cold Brew",
+          "description": "18-hour steeped, served over ice",
+          "price": 5,
+          "unit": null,
+          "image": "images/coffee-cup.jpg",
+          "featured": false,
+          "available": true
+        }
+      ]
+    },
+    {
+      "id": "drinks",
+      "label": "Drinks",
+      "items": [
+        {
+          "id": "drinks-fresh-squeezed-lemonade",
+          "name": "Fresh Squeezed Lemonade",
+          "description": "Mint, sparkling water",
+          "price": 6,
+          "unit": null,
+          "image": "images/tea-cup.jpg",
+          "featured": false,
+          "available": true
+        },
+        {
+          "id": "drinks-iced-herbal-tea",
+          "name": "Iced Herbal Tea",
+          "description": "Hibiscus, citrus",
+          "price": 5,
+          "unit": null,
+          "image": "images/tea-cup.jpg",
+          "featured": false,
+          "available": true
+        },
+        {
+          "id": "drinks-sparkling-water",
+          "name": "Sparkling Water",
+          "description": "San Pellegrino",
+          "price": 4,
+          "unit": null,
+          "image": "images/tea-cup.jpg",
+          "featured": false,
+          "available": true
+        },
+        {
+          "id": "drinks-assorted-cold-drinks",
+          "name": "Assorted Cold Drinks",
+          "description": "Coca-Cola, Sprite, Fanta — chilled",
+          "price": 4,
+          "unit": null,
+          "image": "images/coffee-cup.jpg",
+          "featured": false,
+          "available": true
+        }
+      ]
+    },
+    {
+      "id": "mocktails",
+      "label": "Mocktails",
+      "items": [
+        {
+          "id": "mocktails-sunset-spritz",
+          "name": "Sunset Spritz",
+          "description": "Blood orange, ginger, soda, mint",
+          "price": 9,
+          "unit": null,
+          "image": "https://images.unsplash.com/photo-1654074518423-750767f571a9?auto=format&fit=crop&w=700&q=80",
+          "featured": false,
+          "available": true
+        },
+        {
+          "id": "mocktails-garden-mule",
+          "name": "Garden Mule",
+          "description": "Cucumber, lime, ginger beer",
+          "price": 9,
+          "unit": null,
+          "image": "https://images.unsplash.com/photo-1634496064950-02f043806b09?auto=format&fit=crop&w=700&q=80",
+          "featured": false,
+          "available": true
+        },
+        {
+          "id": "mocktails-berry-bramble-fizz",
+          "name": "Berry Bramble Fizz",
+          "description": "Mixed berries, lemon, soda",
+          "price": 9,
+          "unit": null,
+          "image": "https://images.unsplash.com/photo-1595981267035-7b04ca84a82d?auto=format&fit=crop&w=700&q=80",
+          "featured": false,
+          "available": true
+        },
+        {
+          "id": "mocktails-tropical-paradise",
+          "name": "Tropical Paradise",
+          "description": "Pineapple, coconut, passionfruit",
+          "price": 10,
+          "unit": null,
+          "image": "https://images.unsplash.com/photo-1619604394865-437a9fd6853c?auto=format&fit=crop&w=700&q=80",
+          "featured": false,
+          "available": true
+        }
+      ]
+    },
+    {
+      "id": "kids",
+      "label": "Kids Menu",
+      "items": [
+        {
+          "id": "kids-mini-cheeseburger-fries",
+          "name": "Mini Cheeseburger & Fries",
+          "description": "Served with a fruit cup",
+          "price": 9,
+          "unit": null,
+          "image": "https://images.unsplash.com/photo-1636907229111-a8ac768fe6c9?auto=format&fit=crop&w=700&q=80",
+          "featured": false,
+          "available": true
+        },
+        {
+          "id": "kids-cheese-pizza-slice",
+          "name": "Cheese Pizza Slice",
+          "description": "Served with a fruit cup",
+          "price": 8,
+          "unit": null,
+          "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?auto=format&fit=crop&w=700&q=80",
+          "featured": false,
+          "available": true
+        },
+        {
+          "id": "kids-chicken-tenders-fries",
+          "name": "Chicken Tenders & Fries",
+          "description": "House-made honey mustard",
+          "price": 9,
+          "unit": null,
+          "image": "https://images.unsplash.com/photo-1605291581926-df4bf7ee3e89?auto=format&fit=crop&w=700&q=80",
+          "featured": false,
+          "available": true
+        },
+        {
+          "id": "kids-mac-cheese",
+          "name": "Mac & Cheese",
+          "description": "Classic cheddar sauce",
+          "price": 8,
+          "unit": null,
+          "image": "https://images.unsplash.com/photo-1667499989723-c4ab9549d63c?auto=format&fit=crop&w=700&q=80",
+          "featured": false,
+          "available": true
+        }
+      ]
+    },
+    {
+      "id": "specials",
+      "label": "Chef Specials",
+      "items": [
+        {
+          "id": "specials-nihari",
+          "name": "Nihari",
+          "description": "Slow-braised overnight, warming spices, fresh ginger and coriander",
+          "price": 24,
+          "unit": null,
+          "image": "images/nihari.jpg",
+          "featured": true,
+          "available": true
+        },
+        {
+          "id": "specials-zahra-tasting-menu-5-course",
+          "name": "Zahra Tasting Menu (5-Course)",
+          "description": "Chef's seasonal selection, changes weekly",
+          "price": 85,
+          "unit": "person",
+          "image": "https://images.unsplash.com/photo-1577219492769-b63a779fac28?auto=format&fit=crop&w=700&q=80",
+          "featured": false,
+          "available": true
+        },
+        {
+          "id": "specials-whole-roasted-branzino",
+          "name": "Whole Roasted Branzino",
+          "description": "Herb crust, lemon butter, seasonal vegetables",
+          "price": 38,
+          "unit": null,
+          "image": "https://images.unsplash.com/photo-1577219492769-b63a779fac28?auto=format&fit=crop&w=700&q=80",
+          "featured": false,
+          "available": true
+        },
+        {
+          "id": "specials-duck-breast-lorange",
+          "name": "Duck Breast à l'Orange",
+          "description": "Crispy skin, orange gastrique, potato purée",
+          "price": 32,
+          "unit": null,
+          "image": "https://images.unsplash.com/photo-1577219492769-b63a779fac28?auto=format&fit=crop&w=700&q=80",
+          "featured": false,
+          "available": true
+        },
+        {
+          "id": "specials-truffle-risotto",
+          "name": "Truffle Risotto",
+          "description": "Arborio rice, wild mushroom, shaved black truffle",
+          "price": 27,
+          "unit": null,
+          "image": "https://images.unsplash.com/photo-1577219492769-b63a779fac28?auto=format&fit=crop&w=700&q=80",
+          "featured": false,
+          "available": true
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+ZARA DINING — DEMO PHOTO CREDITS
+=================================
+
+All demo photography below is sourced from Unsplash and used under
+the Unsplash License (free for commercial use, no attribution required).
+Full license: https://unsplash.com/license
+
+These are DEMO images only, loaded from Unsplash's CDN so the template
+looks complete out of the box. For your live restaurant site, replace
+every URL in js/config.js with your own photography — see
+documentation/customization-guide.md for exact steps.
+
+Total unique demo photos used: 22
+
+https://images.unsplash.com/photo-1494346480775-936a9f0d0877
+https://images.unsplash.com/photo-1499638673689-79a0b5115d87
+https://images.unsplash.com/photo-1517248135467-4c7edcad34c4
+https://images.unsplash.com/photo-1531441802565-2948024f1b22
+https://images.unsplash.com/photo-1535850452425-140ee4a8dbae
+https://images.unsplash.com/photo-1544025162-d76694265947
+https://images.unsplash.com/photo-1546549032-9571cd6b27df
+https://images.unsplash.com/photo-1550547660-d9450f859349
+https://images.unsplash.com/photo-1577219492769-b63a779fac28
+https://images.unsplash.com/photo-1588168333986-5078d3ae3976
+https://images.unsplash.com/photo-1595977514600-72cbc8376c38
+https://images.unsplash.com/photo-1599206614622-d7dae04bb031
+https://images.unsplash.com/photo-1600565193348-f74bd3c7ccdf
+https://images.unsplash.com/photo-1600891964092-4316c288032e
+https://images.unsplash.com/photo-1608897013039-887f21d8c804
+https://images.unsplash.com/photo-1621465558419-1deb2e51b530
+https://images.unsplash.com/photo-1621538997517-58ce53933faa
+https://images.unsplash.com/photo-1663790776711-9283bf614ac2
+https://images.unsplash.com/photo-1667388969250-1c7220bf3f37
+https://images.unsplash.com/photo-1672636402078-4b957a572e4e
+https://images.unsplash.com/photo-1691200170948-beca4be90d59
+https://images.unsplash.com/photo-1710846929339-72634edf6f5f

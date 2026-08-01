@@ -1,0 +1,8 @@
+# Zahra Dining — robots.txt
+# Replace the domain in the Sitemap line below with your real domain
+# once the site is live.
+
+User-agent: *
+Allow: /
+
+Sitemap: https://www.zahradining.com/sitemap.xml
